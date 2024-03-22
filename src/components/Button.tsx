@@ -7,6 +7,7 @@ interface Props {
 }
 
 const Button: React.FC<Props> = ({ icon, context }) => {
+  console.log(icon);
   return (
     <div className="button_container">
       <p>
