@@ -1,0 +1,16 @@
+.button_container {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 0.4rem 1rem;
+  background-color: #38228e;
+  text-align: center;
+  font-weight: 400;
+  width: 10rem;
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+  }
+}

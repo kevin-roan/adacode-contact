@@ -1,0 +1,79 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .top_section {
+    padding: 3rem;
+    height: 90vh;
+    background-image: radial-gradient(circle, var(--primary-color), #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .user_details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .useravatar {
+      width: 7rem;
+      height: 7rem;
+      border: 1px solid white;
+      border-radius: 100px;
+    }
+
+    .socialicons_wrapper {
+      display: flex;
+      gap: 2rem;
+      font-size: 1.4rem;
+    }
+
+    .button_light_container {
+      display: flex;
+
+      button {
+        padding: 0.4rem 1rem;
+        background-color: color;
+        color: black;
+        background-color: white;
+        border-radius: 7px;
+        border: none;
+        margin: 0.3rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        svg {
+          fill: black;
+        }
+      }
+    }
+
+    .contact_details {
+      p {
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .bottom_section {
+    height: 10vh;
+    background-color: var(--secondary-color);
+
+    h1 {
+      color: grey;
+      text-align: center;
+      padding: 1rem;
+    }
+  }
+}
