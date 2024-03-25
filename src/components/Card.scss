@@ -1,0 +1,21 @@
+.card_container {
+  border-radius: 10px;
+  background-color: #3D3F54;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    align-self: flex-start;
+    text-decoration: underline;
+    text-decoration-color: #ff9a71;
+    text-decoration-skip-ink: all;
+    padding-bottom: 3px;
+  }
+
+  p {
+    text-align: none;
+    font-size: 0.8rem;
+    color: grey;
+  }
+}

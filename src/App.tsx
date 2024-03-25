@@ -1,5 +1,6 @@
 import "./App.scss";
 import Button from "./components/Button";
+import Card from "./components/Card";
 import { IoIosCall } from "react-icons/io";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
@@ -9,10 +10,23 @@ const App = () => {
     <div className="container">
       <section className="top_section">
         <div className="user_details">
-          <img className="useravatar" />
-          <h4>Muhammed Muzammil H A</h4>
-          <p>Enterpreneur</p>
-          <Button icon="icon" context="Reach Out" />
+          <img
+            className="useravatar"
+            src="https://media-tir3-1.cdn.whatsapp.net/v/t61.24694-24/416823717_949227969965437_6035290967989845318_n.jpg?ccb=11-4&oh=01_AdQKBvk9rc52N8MZSgE4XmmrFj0UHGKCAzQ9R4suiZtkXw&oe=660E3A17&_nc_sid=e6ed6c&_nc_cat=107"
+          />
+          <span>
+            <h4>Muhammed Muzammil H A</h4>
+            <p>Enterpreneur</p>
+          </span>
+          <Card
+            title="About"
+            description="Lorem ipsum dolor sit ametexcepteur non duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis."
+          />
+          <Card
+            title="Contact Here"
+            description="Lorem ipsum dolor sit ametexcepteur non duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis."
+          />
+          <Button icon="icon" context="Save Contact" />
           <div className="button_light_container">
             <button className="button_light">
               <IoIosCall />
@@ -28,15 +42,8 @@ const App = () => {
             <FaLinkedin />
             <FaWhatsapp />
           </div>
-          <div className="contact_details">
-            <p>+91 7734 739 373</p>
-            <p>muhammedmuzammil783@gmail.com</p>
-          </div>
-          <Button icon="Save Contact" context="Save Contact" />
+          <div className="contact_details"></div>
         </div>
-      </section>
-      <section className="bottom_section">
-        <h1>Adacode Solutions</h1>
       </section>
     </div>
   );
