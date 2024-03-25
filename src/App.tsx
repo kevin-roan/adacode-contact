@@ -9,10 +9,7 @@ const App = () => {
     <div className="container">
       <section className="top_section">
         <div className="user_details">
-          <img
-            src="https://images.news9live.com/wp-content/uploads/2023/06/THOPPI.jpg"
-            className="useravatar"
-          />
+          <img className="useravatar" />
           <h4>Muhammed Muzammil H A</h4>
           <p>Enterpreneur</p>
           <Button icon="icon" context="Reach Out" />
